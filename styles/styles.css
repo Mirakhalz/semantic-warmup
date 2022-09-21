@@ -1,5 +1,80 @@
+    html {
+        background-color: bisque;
+    }
 
-    p {
+    a{
+        font-size: 30px;
+    }
+    p{
         color: red;
         font-size: 20px;
+        /* font-family: monospace; */  
+    }
+
+    iframe {
+        width: 560px;
+        height: 315px;
+        border-radius: 10px;
+    }
+
+    .italic_text{
+        font-style: italic;
+    }
+    
+    p:not(.italic_text){
+        font-weight: bold;
+    }
+
+    #logo{
+        height: 150px;
+    }
+
+    img{
+        height: 650px;
+        border-radius: 20px;
+        filter: drop-shadow(0 0 0.75rem grey);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    nav > a{
+        background-color: purple;
+        color:aliceblue;
+    }
+
+    h1, footer >p {
+        background-color: blueviolet;
+        color:aliceblue;
+    }
+
+    h2 + p {
+        border-width: 2px;
+        border-color: black;
+        border-style: dashed;
+    }
+
+    p:hover {
+        color: rgb(0, 55, 255);
+        border: dashed 3px lime;
+    }
+
+    p:active {
+        font-size: 30px;
+    }
+
+    img:active {
+        height: 800px;
+    }
+
+    a:link {
+        color: rgb(17, 106, 5);
+    }
+    a:visited{
+        color: rgb(17, 106, 5);
+    }
+
+    a:nth-of-type(2){
+        border: solid 3px goldenrod;
     }
